@@ -28,6 +28,7 @@ SELECT * FROM `courses` WHERE `period`= 'I semestre'AND `year` = 1 ORDER BY `cou
 
 
 7. Da quanti dipartimenti è composta l'università? (12)
+SELECT COUNT(*) AS `NumberOfDepatments` FROM `departments`;
 
 
 
